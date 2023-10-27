@@ -1,4 +1,4 @@
-package REPASOprogramacion;
+package REPASOprogramacion.Examenes;
 
 import java.text.DecimalFormat;
 

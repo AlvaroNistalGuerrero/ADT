@@ -1,5 +1,4 @@
 
-<?xml version="1.0" encoding="UTF-8" ?>
 <Empleados>
     <empleado>
         <id>1</id>
@@ -19,4 +18,34 @@
         <dep>10</dep>
         <salario>3000.0</salario>
     </empleado>
-</Empleados>
+    <empleado>
+        <id>4</id>
+        <apellido>RAMOS</apellido>
+        <dep>40</dep>
+        <salario>4000.87</salario>
+    </empleado>
+    <empleado>
+        <id>5</id>
+        <apellido>SEVILLA</apellido>
+        <dep>30</dep>
+        <salario>2200.0</salario>
+    </empleado>
+    <empleado>
+        <id>6</id>
+        <apellido>CASILLA</apellido>
+        <dep>30</dep>
+        <salario>1435.87</salario>
+    </empleado>
+    <empleado>
+        <id>7</id>
+        <apellido>REY</apellido>
+        <dep>20</dep>
+        <salario>2000.0</salario>
+    </empleado>
+    <empleado>
+        <id>20</id>
+        <apellido>GONZALEZ</apellido>
+        <dep>10</dep>
+        <salario>1230.87</salario>
+    </empleado>
+</Empleados>s>

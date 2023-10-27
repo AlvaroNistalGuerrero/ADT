@@ -1,13 +1,13 @@
-package REPASOprogramacion;
+package REPASOprogramacion.Arrayas;
 
 /*
 	 * Programa que cree dos vectores de números enteros, cada uno de ellos de una longitud aleatoria
 	 * entre 10 y 100, los rellene con valores aleatorios entre 0 y 100, los ordene, los mezcle en un tercer vector
 	 * manteniendo la ordenación y finalmente muestre el contenido de los tres vectores.
+	 * Hacer un metodo que retorne la suma de todos los valores de del vector resultado
 */
 
 import java.util.Arrays;
-import java.util.Random;
 
 public class Ejercicio2Arrays {
 
@@ -48,6 +48,14 @@ public class Ejercicio2Arrays {
         Arrays.sort(result);
         System.out.println("El array final ordenado es: " + Arrays.toString(result));
     }
+    public int sumaArrayResultado(){
+        int suma = 0;
+        for (int i = 0; i < result.length; i++) {
+            suma += result[i];
+        }
+
+        return suma;
+    }
 
 
 
@@ -56,6 +64,7 @@ public class Ejercicio2Arrays {
         e.crearArray();
         e.rellenar();
         e.ordenar();
+        System.out.println("El resultado de la suma de los valores del vector final (result) = " + e.sumaArrayResultado());
 
     }
 }

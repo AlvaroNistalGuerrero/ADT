@@ -1,4 +1,4 @@
-package REPASOprogramacion;
+package REPASOprogramacion.Arrayas;
 
 import java.util.Scanner;
 

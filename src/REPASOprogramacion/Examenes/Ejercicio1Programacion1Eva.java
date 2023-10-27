@@ -1,4 +1,4 @@
-package REPASOprogramacion;
+package REPASOprogramacion.Examenes;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
 2- Pedir lado del cuadrado por teclado y dibujarlo con asteriscos
 
  */
-public class Prueba {
+public class Ejercicio1Programacion1Eva {
 
     public float mediaArit () {
         float suma = 0;
@@ -83,7 +83,7 @@ public class Prueba {
         //Scanner sc = new Scanner(System.in);
         //int n1 = sc.nextInt();
         //int n2 = sc.nextInt();
-        Prueba p = new Prueba();
+        Ejercicio1Programacion1Eva p = new Ejercicio1Programacion1Eva();
         // System.out.println(p.mediaArit());
         //int lado = sc.nextInt();
         // p.cuadradoAsteris;
